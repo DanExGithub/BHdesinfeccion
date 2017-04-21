@@ -1,50 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>BHdesinfecciones</title>
-	<meta charset="utf8"></meta> 
-	<meta name="viewport" content="width=device-with , initial-scale=1">    
-	<!-- estilo bootstrap -->
-	<link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" type="text/css" href=""/>
-	<!-- Include jQuery library -->
-	<script type="text/javascript" src="js/jQuery/jquery.min.js"></script>
-	<!-- Include bootstrap library -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <title>BHdesinfecciones</title>
+    <meta charset="utf8"></meta> 
+    <meta name="viewport" content="width=device-with , initial-scale=1">    
+    <!-- estilo bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href=""/>
+    <!-- Include jQuery library -->
+    <script type="text/javascript" src="js/jQuery/jquery.min.js"></script>
+    <!-- Include bootstrap library -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <style type="text/css">
+        nav{;
+            background-color: white;
+        }   
 
+
+    </style>
 
 </head>
-<body>
-	<nav class="navbar navbar">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#" >
-					<span class="glyphicon glyphicon-leaf" style="color:green" ></span><span> BH DESINFECCI&OacuteN</span>
-				</a>
-			</div>
-			<ul class="nav navbar-nav">
-				<li><a href="#">Nosotros</a></li>
-				<li><a href="#">Precios</a></li>
-				<li><a href="#">Contacto</a></li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#"><span class="glyphicon glyphicon-user"></span>Login</a></li>
-			</ul>
-		</div>
-	</nav>
+<body id="init_page">
+    <nav class="navbar navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" >
+                    <span class="glyphicon glyphicon-leaf" style="color:green" ></span><span> BH DESINFECCI&OacuteN</span>
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#nos">Nosotros</a></li>
+                <li><a href="#precio">Precios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Login</a></li>
+            </ul>
+        </div>
+    </nav>
 
-	
-<div class="container-fluid">
-  <div class="row">
-	<div class="col-xs-3 col-md-2" style="background-color:green">
-		<p>menu</p>
-	</div>
-	<div class="col-xs-9 col-md-10" style="background-color:red">
-		<p>COntenido tabla</p>
-	</div> 
-  </div> 
-</div>  
+    <div id="nos" class="container-fluid">
+        <h1 class="text-center">Nosotros</h1>
+        <p>Surgida en 2007,como una pequeña pyme, nos dedicamos a todo tipo de desinfecciones,</p>
+        <p>usando las ultimas tecnologias de eliminac&iacuteon de plagas:</p>
+        <ul class="list-group">
+
+            <li class="list-group-item">
+                <h4 class="list-group-item-heading">Desratizaci&oacuten</h4>
+                <p class="list-group-item-text">Eliminaci&oacuteon de todo tipo de Roedores: lauchas, ratas, ratones.</p>
+            </li>
+            <li class="list-group-item">
+                <h4 class="list-group-item-heading">Desinsectaci&oacuten</h4>
+                <p class="list-group-item-text">Eliminaci&oacuteon de todo tipo de insectos: hormigas, arañas, avispas.</p>
+            </li>
+            <li class="list-group-item">
+                <h4 class="list-group-item-heading">Desinfecci&oacuten</h4>
+                <p class="list-group-item-text">Tratamiento de vapor-fungicida( moho, hongos).</p>
+            </li>
+
+        </ul>
+    </div>
+    <div id="precio" class="container-fluid">
+        <h1 class="text-center">Lista de precios</h1>
+        <p>Se adaptan los valores seg&uacuten el tamaño de la zona a desinfectar.</p>
+        <ul class="list-group">
+
+            <li class="list-group-item">
+                <h4 class="list-group-item-heading">Desratizaci&oacuten</h4>
+                <p class="list-group-item-text">Eliminaci&oacuteon de todo tipo de Roedores: lauchas, ratas, ratones.</p>
+            </li>
+            <li class="list-group-item">
+                <h4 class="list-group-item-heading">Desinsectaci&oacuten</h4>
+                <p class="list-group-item-text">Eliminaci&oacuteon de todo tipo de insectos: hormigas, arañas, avispas.</p>
+            </li>
+            <li class="list-group-item">
+                <h4 class="list-group-item-heading">Desinfecci&oacuten</h4>
+                <p class="list-group-item-text">Tratamiento de vapor-fungicida( moho, hongos).</p>
+            </li>
+
+        </ul>
+    </div>
+
+    <div id="precio" class="container-fluid">
+        <h1 class="text-center">Contacto</h1>
+        <div>
+         <div></div>
+         <div></div>
+        </div>
+        
+    </div>
 
 
+    <footer class="container-fluid text-center">
+      <a href="#init_page" title="Inicio">
+       <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+    <p>-----------------------------------------------------------</p>
+        <p>BH Desinfecci&oacuten 2017</p>
+    </footer>
 </body>
 </html>
