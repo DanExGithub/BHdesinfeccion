@@ -12,10 +12,20 @@
     <!-- Include bootstrap library -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <style type="text/css">
-        nav{;
-            background-color: white;
+        nav{
+            background: red; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient( #e6f7ff,white); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient( #e6f7ff,white); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient( #e6f7ff,white); /* For Firefox 3.6 to 15 */
+            background: linear-gradient( #e6f7ff,white); /* Standard syntax */
         }   
-
+        .bg-footer{
+            background: red; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient( white,#e6f7ff); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient( white,#e6f7ff); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient( white,#e6f7ff); /* For Firefox 3.6 to 15 */
+            background: linear-gradient( white,#e6f7ff); /* Standard syntax */
+        }
 
     </style>
 
@@ -91,7 +101,7 @@
     </div>
 
 
-    <footer class="container-fluid text-center">
+    <footer class="container-fluid text-center bg-footer">
       <a href="#init_page" title="Inicio">
        <span class="glyphicon glyphicon-chevron-up"></span>
       </a>
